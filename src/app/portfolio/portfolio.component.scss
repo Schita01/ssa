@@ -1,0 +1,48 @@
+.portfolio {
+    width: 100%;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .area__subtitle {
+        color: #000;
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin: 0 0 20px;
+    }
+
+    .area__subtitle:before {
+        content: "";
+        background-color: #000;
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+        text-align: left;
+        width: 30px;
+        height: 2px;
+        margin: 0 10px 0 0;
+    }
+
+    .area__subtitle:after {
+        content: "";
+        background-color: #000;
+        display: inline-block;
+        position: relative;
+        bottom: 4px;
+        text-align: left;
+        width: 30px;
+        height: 2px;
+        margin: 0 0 0 10px;
+    }
+
+    h1 {
+        font-size: 60px;
+        line-height: 1em; 
+    }
+    
+    p {
+        text-align: center;
+    }
+}

@@ -1,0 +1,42 @@
+.main-services {
+    width: 100%;
+    max-width: 100%;
+    padding: 80px 0px;
+    background-color: #FAF2C142;
+    display: flex;
+    justify-content: center;
+
+    .serv-cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+
+        h2 {
+            color: #14212b;
+            font-weight: 600;
+            margin: 0 0 15px;
+            font-family: 'Barlow Condensed',sans-serif;
+            font-size: 60px;
+            text-align: center;
+        }
+    
+        .serv-text {
+            color: #616669;
+            margin-bottom: 50px;
+        }  
+
+
+        .serv-card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+    } 
+
+}
+
+    
