@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 
         .cont-inf {
             display: flex;
@@ -44,6 +45,11 @@
             margin: 0 0 0 10px;
         }
     
+        .sp-txt {
+            margin-bottom: 15px;
+        }
+
+
         h1 {
             font-size: 60px;
             line-height: 1em; 
@@ -59,6 +65,7 @@
             width: 70%;
             display: flex;
             background-color: grey;
+            justify-content: space-between;
 
             .send-left {
                 width: 60%;
@@ -69,12 +76,33 @@
             }
 
             .send-right {
-                width: 30%;
+                width: 40%;
                 display: flex;
                 flex-direction: column;
+                gap: 20px;
                 justify-content: center;
 
-                
+                .em-cont {
+                    display: flex;
+                    gap: 7px;
+                    img {
+                        width: 70px;
+                    }
+                }
+
+                .ng {
+                    display: flex;
+                    flex-direction:  column;
+                }
+
+                .adress {
+                    display: flex;
+                    gap: 7px;
+
+                    img {
+                        width: 70px;
+                    }
+                }
             }
 
             .inp-box {
@@ -136,3 +164,74 @@
             }
         }
     }
+
+
+    @media only screen and (max-width: 1100px) {
+        .cont-send {
+            width: 100% !important;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .adress {
+            margin-bottom: 20px;
+        }
+      }
+
+
+      @media only screen and (max-width: 650px) {
+       .line1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        gap: 0px !important;
+       }
+      }
+
+
+      
+      @media only screen and (max-width: 560px) {
+        .em-cont {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .adress {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ng {
+            text-align: center;
+        }
+       }
+
+
+       @media only screen and (max-width: 560px) {
+        .em-cont {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .adress {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .ng {
+            text-align: center;
+        }
+
+        .send-left {
+            width: 100% !important;
+        }
+       }
+
+       @media only screen and (max-width: 440px) {
+        .inf-btn {
+            width: 150px !important;
+        } 
+        
+       }

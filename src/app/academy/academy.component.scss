@@ -119,3 +119,15 @@
         }
     }
 }
+
+
+@media only screen and (max-width: 990px) {
+    .academy-inf {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    h1 {
+        text-align: center;
+        line-height: 1.3em !important;
+    }
+}

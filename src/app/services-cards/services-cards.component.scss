@@ -63,3 +63,9 @@ span {
     box-shadow: none;
   }
   
+
+  @media only screen and (max-width: 400px) {
+    .serv-card {
+     width: 100% !important;
+    }
+ }

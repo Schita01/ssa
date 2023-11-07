@@ -39,6 +39,7 @@ main {
         .next-inf {
             display: flex;
             gap: 15px;
+            margin-bottom: 20px;
 
             .learn {
                 color: #fff;
@@ -62,3 +63,27 @@ main {
         }
     }
 }
+
+
+// მილიონები გვწყურია არა როგორც წყალი არამედ როგორც წვენი
+
+
+@media only screen and (max-width: 500px) {
+    h1 {
+        font-size: 50px !important;
+    }
+  }
+@media only screen and (max-width: 420px) {
+    h1 {
+        font-size: 40px !important;
+    }
+
+    .next-inf {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .more {
+        height: 48px;
+    }
+  }
